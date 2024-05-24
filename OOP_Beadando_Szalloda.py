@@ -179,7 +179,20 @@ def opciók():
         print("3-as: Listázás.")
         print("Bármely más szám: Kilépés.")
         
-    
+egyFogl=Foglalas(50, 2024-10-14, "Geri", uuid.uuid4())
+foglLista.append(egyFogl)  
+
+ketFogl=Foglalas(150, 2024-10-10, "Gabi", uuid.uuid4())
+foglLista.append(ketFogl) 
+
+harFogl=Foglalas(78, 2024-11-30, "Tomi", uuid.uuid4())
+foglLista.append(harFogl) 
+
+negyFogl=Foglalas(113, 2024-10-19, "Zsuzsi", uuid.uuid4())
+foglLista.append(negyFogl) 
+
+otFogl=Foglalas(109, 2024-11-20, "Kovacs", uuid.uuid4())
+foglLista.append(otFogl) 
 
 
 while True:
